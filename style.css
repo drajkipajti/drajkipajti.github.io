@@ -1,0 +1,134 @@
+:root {
+  --color1: #39CCCC;
+  --color2: #222;
+}
+
+.titlebox {
+  color: #111;  
+}
+
+
+
+body {
+  width: 1200px;
+  margin:auto;
+}
+
+
+
+header{
+  background-color: var(--color1);
+  font-family: 'Proza Libre', sans-serif;
+  display: flex;
+  height: 120px;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: auto;
+  justify-content: space-between;
+  font-size: 50px;
+  align-items: center;
+}
+
+.content-box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.left-side{
+  width: 540px;  
+}
+
+.right-side{
+  max-width: 660px;
+}
+
+.cover-section{
+  background-image: url('http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png');
+  background-repeat: no-repeat;  
+  background-size: 400%;
+  background-position: center top;
+  height: 600px;
+  position:relative;
+}
+.text-section{
+  background-color: var(--color2);
+  color: var(--color1);
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 20px;
+  padding-left: 50px;
+  height: 100%;
+  font-size: 30px;
+  line-height: 1.5;
+
+}
+
+.quote-section{
+  background-color: var(--color1);
+  color: var(--color2);
+  font-family: 'Proza Libre', sans-serif;
+  font-size: 84px;
+  padding-left: 20px;
+  margin-bottom: auto;
+  line-height: 1.2;
+  position: relative;
+}
+blockquote{
+  margin:0px;
+  padding:0px;
+}
+blockquote::before{
+  content: '“';
+  position: absolute;
+  top:-40px;
+  left:0px;
+  font-size: 200px;
+}
+
+.titlebox{
+  position: absolute;
+  width: 600px;
+  bottom: 40px;
+  left: 40px;
+  line-height:1.0;
+  
+}
+h1{
+  font-family: 'Proza Libre', sans-serif;
+  font-size:110px;
+  margin:0px;
+
+
+}
+
+h2{
+  font-family: 'Proza Libre', sans-serif; 
+  font-size:56px;
+  margin:0px;
+}
+
+h3{
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px;
+}
+
+h5{
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  font-size: 20px;
+  margin:0px;
+}
+
+p, ul{
+  font-size: 24px;
+}
+
+header>a{
+  text-decoration:none;
+  color: var(--color2);
+}
